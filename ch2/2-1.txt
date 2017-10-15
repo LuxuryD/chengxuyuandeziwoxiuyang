@@ -1,0 +1,3 @@
+2.1 : 从helloworld.c --> helloworld 编译器执行步骤
+	预处理 (hello.c + stdio.h 经过cpp处理 生成hello.i) -> 编译（经过gcc处理 生成hello.s) -> 汇编（as 生成 hello.o）-> 链接 （hello.o + 相关静态库.a link 生成 hello)
+
